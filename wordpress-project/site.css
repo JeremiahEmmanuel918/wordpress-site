@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* nab bar css session starts here */
+.parent {
+  height: 8vh;
+  background-color: white;
+  position: fixed;
+  width: 100%;
+}
+.parent2 {
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
+  align-items: center;
+  color: grey;
+}
+.menu {
+  display: flex;
+  gap: 50px;
+  font-size: small;
+}
+.demo {
+  font-size: xx-large;
+}
+/* nab bar css session ends here */
+/* herosession starts here */
+.parent3 {
+  background-color: blue;
+  height: 95vh;
+  background-image: url(pictures1/background3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-content: center;
+  font-family: sans-serif;
+}
+.change {
+  font-size: xx-large;
+  text-align: center;
+  color: brown;
+  margin-top: 10px;
+}
+.ever {
+  font-size: medium;
+  color: brown;
+  text-align: center;
+  margin-top: 10px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.read {
+  height: 50px;
+  width: 200px;
+  background-color: skyblue;
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+}
+.now {
+  height: 50px;
+  width: 200px;
+  background-color: transparent;
+  border-color: white;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+}
+.read:hover {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(21, 132, 176);
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+}
+.now:hover {
+  height: 50px;
+  width: 200px;
+  background-color: white;
+  border-color: white;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+  color: black;
+}
+@media (max-width: 836px) {
+  .parent2 {
+    display: none;
+  }
+  .button {
+    display: grid;
+  }
+}
+.parent4 {
+  height: 95vh;
+}
+/* hero session ends here */
+/* hero sessio1 starts here */
+.parent5 {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+  background-color: white;
+  gap: 70px;
+  height: auto;
+}
+
+.parent6 {
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+  height: auto;
+}
+.friendly {
+  font-size: xx-large;
+  margin-bottom: 50px;
+}
+.words {
+  font-size: small;
+  color: grey;
+  width: 300px;
+  height: auto;
+}
+.pics1 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.pics2 {
+  width: 50%;
+}
+.read2 {
+  height: 50px;
+  width: 200px;
+  background-color: skyblue;
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.read2:hover {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(21, 132, 176);
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+}
+/* hero session1 ends here */
+/* hero session2 starts here */
+.parent7 {
+  height: 90vh;
+  background-color: rgb(205, 202, 200);
+}
+.parent8 {
+  display: flex;
+  justify-content: center;
+  font-family: sans-serif;
+
+  gap: 10px;
+  height: auto;
+  margin-top: 20px;
+}
+.pics3 {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.img {
+  width: 50%;
+  margin-top: 50px;
+}
+.parent9 {
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 50%;
+  margin-left: 50px;
+}
+.words2 {
+  font-size: small;
+  color: grey;
+  margin-top: 25px;
+  width: 300px;
+  margin-right: 200px;
+}
+.action {
+  height: 50px;
+  width: 200px;
+  background-color: skyblue;
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.action:hover {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(21, 132, 176);
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+}
+.section {
+  font-size: xx-large;
+}
+/* hero session2 ends here */
+@media (max-width: 830px) {
+  .parent5 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .parent6 {
+    height: auto;
+  }
+  .parent8 {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .parent9 {
+    margin-top: 20px;
+  }
+}
+/* heo session3 starts here */
+.parent10 {
+  height: 60vh;
+  background-color: blue;
+  background-image: url(pictures1/project8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+}
+.parent11 {
+  text-align: center;
+  font-family: sans-serif;
+  color: aliceblue;
+  margin-bottom: 50px;
+}
+.small {
+  font-size: 50px;
+  font-weight: normal;
+}
+.words3 {
+  font-size: small;
+  font-weight: lighter;
+  margin-top: 20px;
+}
+.info {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(72, 161, 196);
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.info:hover {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(127, 167, 183);
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+  margin-top: 20px;
+}
+
+/* hero session3 ends here */
+/* hero session4 starts here */
+.parent12 {
+  height: 50vh;
+  align-content: center;
+  text-align: center;
+}
+.parent13 h5 {
+  font-size: xx-large;
+  font-weight: normal;
+}
+.parent13 p {
+  margin-top: 20px;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: lighter;
+  color: rgb(162, 179, 196);
+}
+.parent13 div {
+  height: 50px;
+  width: 200px;
+  background-color: skyblue;
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+}
+.parent13 div:hover {
+  height: 50px;
+  width: 200px;
+  background-color: rgb(127, 167, 183);
+  border-color: transparent;
+  border-style: solid;
+  text-align: center;
+  align-content: center;
+}
+/* hero session4 ends here */
+/* hero session5 css starts here */
+.parent16 {
+  background-image: url(pictures1/black-leaves-with-water-drops-free-photo.webp);
+  height: 180vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin-left: 35px;
+  margin-right: 35px;
+}
+@media (max-width: 835px) {
+  .parent16 {
+    background-size: cover;
+    background-position: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.parent17 {
+  background-color: rgb(3, 3, 14);
+  height: 300vh;
+}
+.images {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+  color: white;
+  position: relative;
+}
+
+.images div {
+  width: 100%;
+  height: 100%;
+}
+.images div img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  cursor: pointer;
+}
+/* hero session5 css ends here */
+/* partnership css starts here */
+.parent14 {
+  background-color: white;
+  height: 60vh;
+}
+.parent15 {
+  justify-content: center;
+  text-align: center;
+  align-content: center;
+}
+.groupimg {
+  width: 50%;
+  height: 50%;
+  gap: 150px;
+  display: flex;
+  margin-top: 70px;
+}
+.groupimg div img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+}
+.main {
+  font-size: x-large;
+  font-family: sans-serif;
+  margin-top: 70px;
+  font-weight: lighter;
+}
+/* partnership css ends here */
