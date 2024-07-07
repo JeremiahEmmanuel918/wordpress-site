@@ -348,14 +348,28 @@
     margin-right: auto;
   }
 }
+
 .parent17 {
   background-color: rgb(3, 3, 14);
-  height: 300vh;
+  height: 600%;
+  width: auto;
+}
+.parent17 h5 {
+  color: white;
+  text-align: center;
+  font-size: xx-large;
+  padding-top: 70px;
+}
+.parent17 p {
+  color: white;
+  font-size: medium;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 .images {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-
   color: white;
   position: relative;
 }
@@ -364,11 +378,29 @@
   width: 100%;
   height: 100%;
 }
-.images div img {
+.images img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   cursor: pointer;
+}
+.images:hover {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+
+  color: white;
+  position: relative;
+}
+.image div h5 {
+  color: white;
+  top: 0;
+  left: 0;
+  position: absolute;
+  opacity: 0;
+  transition: 0.6s;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
 }
 /* hero session5 css ends here */
 /* partnership css starts here */
